@@ -1,6 +1,11 @@
 Run with:
+LINUX:
 chmod +x ScanFileSystem.sh             # Allow Executable Permissions
 ./ScanFileSystem.sh {$1} {$2} {$3}     # RUN
+
+WINDOWS:
+Install bash if you don't have it
+ScanFileSystem.sh {$1} {$2} {$3} 
 
 {$1} = Search term that you are looking for in file name (can't be empty, ignores case)
 {$2} = Directory that you are searching inside of. Can do C:/, but I recommend specifying something for speed.
