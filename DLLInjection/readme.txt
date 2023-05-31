@@ -1,2 +1,2 @@
-Extract and beware, if someone else uses this tool remotely they will f you up.
-Stay safe
+command line tool, first argument is the PID of target
+Extract and beware, if someone else uses this tool they can f you up.

@@ -1,1 +1,1 @@
-command line tool demonstrating shellcode injection, compile it yourself.
+command line tool demonstrating shellcode injection
