@@ -13,8 +13,7 @@ logger = logging.getLogger()
 DELETE_INTERVAL = 60
 EXPIRY_TIME = 60 * 5
 DOWNLOAD_DIR = os.path.join(os.path.dirname(__file__), 'static')
-stream_handler = logging.StreamHandler()
-logger.addHandler(stream_handler)
+
 
 app = Flask(__name__)
 
