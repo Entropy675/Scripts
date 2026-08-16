@@ -2,6 +2,9 @@
 """
 Trivial Parallel Block-Mode SSS CLI Wrapper
 Hardcoded to max ssss block size (128 hex chars / 64 bytes) with concurrent execution.
+
+I highly recommend this to be a native feature of ssss, there is no reason not to support a block mode by default.
+This script's logic is trivially re-implemented within my ETCS substrate in C++ as well, accessable via the CryptProvider.
 """
 
 import argparse
